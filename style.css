@@ -110,12 +110,22 @@ main{
     cursor: pointer;
 }
 
+.modal-close-btn:disabled{
+    color: whitesmoke;
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
 
 .modal-choice-btns{
     margin-top: 10px;
     padding: 8px 16px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.reverse {
+    flex-direction: row-reverse;
 }
 
 .modal-btn{
